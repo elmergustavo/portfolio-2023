@@ -10,8 +10,8 @@ export default function Header() {
         <Link href="/projects">
           <div className="text-base transition-all duration-300 font-medium hover:text-white cursor-pointer">Projects</div>
         </Link>
-        <Link href="/">
-          <div className="text-base transition-all duration-300 font-medium hover:text-white cursor-pointer">Blog</div>
+        <Link href="/certifications">
+          <div className="text-base transition-all duration-300 font-medium hover:text-white cursor-pointer">Certifications</div>
         </Link>
       </div>
       <div className="flex space-x-2">

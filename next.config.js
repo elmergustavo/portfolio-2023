@@ -8,6 +8,8 @@ const nextConfig = {
       "i.ibb.co",
       "capture-website-api.herokuapp.com",
       "avatars.githubusercontent.com",
+      "static.platzi.com",
+      "raw.githubusercontent.com"
     ],
   },
 };
