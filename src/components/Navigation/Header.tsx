@@ -25,7 +25,7 @@ export default function Header() {
       </div>
       <div className="flex space-x-2">
         <Link
-          href="https://discord.com/users/350945523810959361"
+          href="https://discord.com/users/715285017475154013"
           target="_blank"
           className="text-white hover:bg-zinc-400/20 transition-all flex items-center justify-center cursor-pointer social w-10 h-10 rounded-full"
         >

@@ -23,7 +23,7 @@ export default function ProjectsPage() {
       </div>
       <div id="body">
         <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-4 w-full gap-2 items-center mt-4">
-          {Projects.data.map((item, index) => (
+          {/* {Projects.data.map((item, index) => (
             <Link key={index} href={item.url} target="_blank" className="cursor-pointer w-full bg-[#23272a] p-4 rounded-lg hover:bg-zinc-400/20 hover:-translate-y-1 hover:scale-[1.02] transition-all duration-200">
               <Image src={item.bg} alt={item.name} width={500} height={500} className="h-32 w-full shadow-lg rounded-lg" />
               <div className="mt-4">
@@ -35,7 +35,7 @@ export default function ProjectsPage() {
                 {item.name === "Weather App" ? "www.mediafire.com" : item.url}
               </p>
             </Link>
-          ))}
+          ))} */}
         </div>
       </div>
     </div>
