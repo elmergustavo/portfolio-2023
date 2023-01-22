@@ -54,14 +54,14 @@ export default function Repositories() {
           ))}
         </div>
       ) : (
-        <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 w-full gap-2 items-center mt-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full gap-2 items-center mt-4">
           {data.map((item: Repositories, index) => (
             <Link key={index} href={"https://github.com/elmergustavo/" + item.name} target="_blank" className="h-full bg-[#23272a] hover:bg-zinc-200/20 relative transition-all duration-200 flex flex-col rounded-lg py-4 px-5">
               <i className="fal fa-arrow-up-right-from-square absolute top-4 right-5" />
               <h1 className="leading-none text-lg text-zinc-100">
                 <span className="text-primary text-xl font-medium">elmergustavo</span>/{item.name}
               </h1>
-              <p className="line-clamp-2 mt-2 h-12">{item.description ? item.description : "Açıklama belirtilmedi."}</p>
+              <p className="line-clamp-2 mt-2 h-12">{item.description ? item.description : "Description"}</p>
               <div className="mt-3 flex justify-between">
                 <div className="text-sm">
                   <i className="far fa-code text-center w-4 mr-1" />
